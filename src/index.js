@@ -1,6 +1,6 @@
 import DataTable from './DataTable';
 import ToolBar from './ToolBar';
-import { onExportCsv } from './utils';
+import { onExportCsv, format } from './utils';
 
-export { ToolBar, onExportCsv };
+export { ToolBar, onExportCsv, format };
 export default DataTable;
