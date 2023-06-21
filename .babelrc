@@ -1,0 +1,12 @@
+{
+    "presets": ["env", "react"],
+    "plugins": ["transform-object-rest-spread"],
+    // "plugins": [
+    //     [
+    //         "css-modules-transform", {               
+    //             "generateScopedName": "[local]",
+    //             "extractCss": "./lib/data-table.css"
+    //         }
+    //     ]
+    // ]
+}

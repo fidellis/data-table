@@ -1,0 +1,31 @@
+{
+  "name": "data-table",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "yarn copy:css && babel src -d lib",
+    "copy:css": "cd src && find -name '*.css' -exec cp --parents -prv {} ../lib \\;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.22.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "awesome-debounce-promise": "^2.1.0",
+    "fixed-data-table-2": "^0.8.27",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-loading": "^2.0.3",
+    "react-virtualized": "^9.21.1"
+  }
+}
